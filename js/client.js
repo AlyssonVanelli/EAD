@@ -3944,7 +3944,7 @@ function kickedOut(config) {
       popup: "animate__animated animate__fadeOutUp",
     },
   }).then(() => {
-    window.location.href = "/newcall";
+    window.location.href = "/landing.html";
   });
 }
 
@@ -4004,7 +4004,7 @@ function leaveRoom() {
     },
   }).then((result) => {
     if (result.isConfirmed) {
-      window.location.href = "/newcall";
+      window.location.href = "/landing.html";
     }
   });
 }
